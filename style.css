@@ -13,6 +13,10 @@ header{
     color: white;
 }
 
+h1{
+    text-align: center;
+}
+
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
@@ -113,5 +117,10 @@ footer{
     header, footer, .navbar, hr{
         display: none;
     }
+}
+
+/**Contrast ratio for text**/
+.content, .items, #form{
+    font-size: 18px;
 }
     
