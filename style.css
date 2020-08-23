@@ -1,0 +1,117 @@
+body{
+    background-image: url(images/bckgrnd3.jfif);
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+header{
+    text-align: center;
+    background-color: rgb(128, 33, 65);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(128, 33, 65);
+  }
+  
+  /* Style the navbar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: brown;
+    color: white;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 25px;
+}
+.items{
+    table-layout: auto;
+   
+}
+
+#firstname, #lastname {
+    margin-left: 40px;
+    width: 200px;
+    
+}
+#comment {
+    margin-left: 5px;
+    width: 200px;
+    height: 75px;
+}
+
+/**==================================================================**/
+/**SKIP NAVIGATION**/
+/**Before SKIP NAVIGATION activated it will be hidden 
+   up high in the page -500px until activated by using tab button**/
+a#skip, a#skip:hover, a#skip:visited
+{
+    position: absolute;
+    top: -500px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/**When activated the skip naviation will appear at the top of the page
+   and will skip to to h1 conten once user hit ENDER**/
+a#skip:active, a#skip:focus
+{
+    position: static;
+    width: auto;
+    height: auto;
+}
+/**==================================================================**/
+
+/**Max screen size to use 1 column grid**/
+@media screen and (max-width: 700px) {
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+
+footer{
+    position: static;
+    text-align: center;
+    background-color: rgb(128, 33, 65);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/**Hiding header, footer and navbar when printing**/
+@media print {
+    header, footer, .navbar, hr{
+        display: none;
+    }
+}
+    
