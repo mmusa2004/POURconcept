@@ -1,12 +1,12 @@
 body{
-    background-image: url(images/c3.jpg);
+    background-image: url(images/bckgrnd3.jfif);
     background-size: cover;
     padding-left: 40px;
     padding-right: 40px;
 
     /**For contrast ratio**/
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(119, 10, 10);
     font-weight: bold;
     
 }
