@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(172, 186, 199);
+    background-image: url(images/bckgrnd1.jpg);
     background-size: cover;
     padding-left: 40px;
     padding-right: 40px;
 
     /**For contrast ratio**/
     font-size: 20px;
-    color: rgb(119, 10, 10);
+    color: rgb(82, 3, 3);
     font-weight: bold;
     
 }
