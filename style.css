@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/bckgrnd3.jfif);
+    background-color: rgb(172, 186, 199);
     background-size: cover;
     padding-left: 40px;
     padding-right: 40px;
@@ -17,7 +17,7 @@ header{
     color: white;
 }
 
-h1{
+h2{
     text-align: center;
 }
 
