@@ -3,6 +3,9 @@ body{
     background-size: cover;
     padding-left: 40px;
     padding-right: 40px;
+
+    /**For contrast ratio**/
+    font-size: 20px;
     
 }
 header{
@@ -119,8 +122,3 @@ footer{
     }
 }
 
-/**Contrast ratio for text**/
-.content, .items, #form{
-    font-size: 18px;
-}
-    
